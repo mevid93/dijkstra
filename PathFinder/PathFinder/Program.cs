@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace PathFinder
 {
@@ -10,7 +11,7 @@ namespace PathFinder
         static int Main(string[] args)
         {
             // check that user provided input file
-            if (args.Length == 0)
+            if (args.Length == 0 || !File.Exists(args[0]))
             {
                 System.Console.WriteLine("Please provide input file!");
                 return -1;
