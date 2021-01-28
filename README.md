@@ -6,7 +6,7 @@ Program gets an ascii file as argument. The file contains 2 coordinates (x, y) a
 
 ![Input file content](Images/file.PNG)
 
-The PathFinder program takes the file as argument and finds the shortest path through the map from start point to end point, and calculate how many trees (X) were passed on the way. The program used Djikstra's algorithm. For the example file above, the result is 3, and the path is shown below. The actual path is not returned to the user.
+The PathFinder program takes the file as argument and finds the shortest path through the map from start point to end point, and calculate how many trees (X) were passed on the way. The program used Djikstra's algorithm. For the example file above, the result is 9, and the path is shown below. The actual path is not returned to the user.
 
 ![Solution path](Images/path.PNG)
 
@@ -18,9 +18,6 @@ The PathFinder program takes the file as argument and finds the shortest path th
 ```
 PathFinder.exe map.txt
 ```
-
-* For the example map provided in the Examples folder, the optimal path has 9 trees ('X') along it. The path is presented in the picture above. 
-
 
 ## Map file limitations
 * first row should contain starting point coordinate (must be inside map area)
