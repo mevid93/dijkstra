@@ -9,3 +9,21 @@ Program gets an ascii file as argument. The file contains 2 coordinates (x, y) a
 The PathFinder program takes the file as argument and finds the shortest path through the map from start point to end point, and calculate how many trees (X) were passed on the way. The program used Djikstra's algorithm. For the example file above, the result is 3, and the path is shown below. The actual path is not returned to the user.
 
 ![Solution path](Images/path.PNG)
+
+## Instructions
+* Download the repository to your computer.
+* Open to PahtFinder Visual Studio Project and build the program.
+* Run the program and give an input file as a parameter
+
+```
+PathFinder.exe map.txt
+```
+
+* For the example map provided in the Examples folder, the optimal path has 9 trees ('X') along it. The path is presented in the picture above. 
+
+
+## Map file limitations
+* first row should contain starting point coordinate (must be inside map area)
+* second row should contain end point coordinate (must be inside map area)
+* the following lines should contain area of the map ('X', 'O', '.')
+* make sure that the map file does not contain any empty lines
