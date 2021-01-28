@@ -12,8 +12,8 @@ The PathFinder program takes the file as argument and finds the shortest path th
 
 ## Instructions
 * Download the repository to your computer.
-* Open to PahtFinder Visual Studio Project and build the program.
-* Run the program and give an input file as a parameter
+* Open PahtFinder Visual Studio Project and build the program.
+* Run the program and give an input file as a parameter (see Examples folder)
 
 ```
 PathFinder.exe map.txt
