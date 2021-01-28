@@ -2,7 +2,7 @@
 Path finding algorithm implementation
 
 ##
-Program gets an ascii file as argument. The file contains 2 coordinates (x, y) and a map. The map contains trees (marked as X), rocks (marked as O) and free surface (marked with .). One cannot traverse through rocks or trees, only through the free terrain. Only horizontal and vertical movement is possible. The picture below is an example of the input file content. Files do not actually contain S or E letters. They are only presented to help visualize start point and end point.
+Program gets an ascii file as argument. The file contains 2 coordinates (x, y) and a map. The map contains trees (marked as X), rocks (marked as O) and free surface (marked with .). One cannot traverse through rocks or trees, only through the free terrain. Only horizontal and vertical movement is possible. The picture below is an example of the input file content.
 
 ![Input file content](Images/file.PNG)
 
