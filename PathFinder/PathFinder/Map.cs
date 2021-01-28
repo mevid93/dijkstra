@@ -8,7 +8,7 @@ namespace PathFinder
     {
         public Point start { get; set; }      // start point of path
         public Point end { get; set; }        // end point of path
-        char[,] area { get; set; }            // area the map ('X', 'O', '.')
+        public char[,] area { get; set; }            // area the map ('X', 'O', '.')
 
         /// <summary>
         /// Constructor for the Map.

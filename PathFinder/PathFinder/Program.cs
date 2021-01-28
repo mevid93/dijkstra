@@ -15,7 +15,7 @@ namespace PathFinder
                 System.Console.WriteLine("Please provide input file!");
                 return -1;
             }
-
+            
             // get file name from argument list
             string filename = args[0];
 
@@ -26,8 +26,8 @@ namespace PathFinder
             int numberOfTrees = PathFinder.FindNumberOfTrees(map);
 
             // print the result for the user
-            System.Console.WriteLine($"The Number of trees along the shortest path: {numberOfTrees}");
-
+            System.Console.WriteLine($"The number of trees along the shortest path: {numberOfTrees}");
+            
             return 0;
         }
     }
