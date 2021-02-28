@@ -1,4 +1,4 @@
-# djikstra
+# dijkstra
 Path finding algorithm implementation
 
 ##
@@ -6,7 +6,7 @@ Program gets an ascii file as argument. The file contains 2 coordinates (x, y) a
 
 ![Input file content](Images/file.PNG)
 
-The PathFinder program takes the file as argument and finds the shortest path through the map from start point to end point, and calculate how many trees (X) were passed on the way. The program used Djikstra's algorithm. For the example file above, the result is 9, and the path is shown below. The actual path is not returned to the user.
+The PathFinder program takes the file as argument and finds the shortest path through the map from start point to end point, and calculate how many trees (X) were passed on the way. The program used Dijkstra's algorithm. For the example file above, the result is 9, and the path is shown below. The actual path is not returned to the user.
 
 ![Solution path](Images/path.PNG)
 
