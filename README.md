@@ -12,11 +12,15 @@ The PathFinder program takes the file as argument and finds the shortest path th
 
 ## Instructions
 * Download the repository to your computer.
-* Open PahtFinder Visual Studio Project and build the program.
-* Run the program and give an input file as a parameter (see Examples folder)
+* Make sure that dotnet 7.0 sdk and runtime are installed to your computer.
 
-```
-PathFinder.exe map.txt
+```console
+foo@bar:~/dijkstra$ pwd
+/home/foo/dijkstra
+foo@bar:~/dijkstra$ cd PathFinder
+foo@bar:~/dijkstra/PathFinder$ dotnet build
+foo@bar:~/dijkstra/PathFinder$ cd bin/Debug/net7.0/
+foo@bar:~/dijkstra/PathFinder/bin/Debug/net7.0$ ./PathFinder <map_file> 
 ```
 
 ## Map file limitations
